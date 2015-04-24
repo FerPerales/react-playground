@@ -1,14 +1,13 @@
 var menuItemsData = [
-  {title: 'Dashboard', icon: 'images/icons/dashboard.png'},
-  {title: 'New appointment', icon: 'images/icons/new-appointment.png'}
+  {key: 1, title: 'Dashboard', iconClass: 'images/icons/dashboard.png'},
+  {key: 2, title: 'New appointment', iconClass: 'images/icons/new-appointment.png'}
 ];
 
 var NavigationBar = React.createClass({
   render: function() {
     var menuItems = [];
     menuItemsData.forEach(function(menuItem){
-      console.log(menuItem);
-      menuItems.push(<MenuItem />);
+      menuItems.push(<MenuItem key={menuItem.key} data={menuItem} />);
     });
 
     return (

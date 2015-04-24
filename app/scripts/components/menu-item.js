@@ -1,12 +1,12 @@
 var MenuItem = React.createClass({
   render: function(){
     return (
-      <li className="active">
-        <a href="/dashboard" title="Dashboard">
-          <div className="helper-font-24">
-            <i className="icofont-dashboard"></i>
+      <li>
+        <a href='#' title={this.props.data.title}>
+          <div>
+            <i class={this.props.data.iconClass}></i>
           </div>
-          <span className="sidebar-text">Dashboard</span>
+          <span>{this.props.data.title}</span>
         </a>
       </li>
     );
