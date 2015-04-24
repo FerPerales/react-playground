@@ -4,6 +4,7 @@ var MainContainer = React.createClass({
       <div>
         <NavigationBar />
         <DashboardHeader />
+        <DashboardContainer />
       </div>
     );
   }
