@@ -10,13 +10,15 @@ interact.
 ## Setup
 
 ```
-npm install
 bower install
+npm install
 ```
 
 ## Start development serve
 
+
 ```
+  mkdir dist
   grunt serve
 ```
 
