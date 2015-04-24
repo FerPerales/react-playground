@@ -1,7 +1,10 @@
 var UpcomingAppointmentsWidget = React.createClass({
   render: function(){
     return (
-      <p>Appointments</p>
+      <div>
+        <TabbedHeader />
+        <AppointmentsTable />
+      </div>
     );
   }
 });
