@@ -4,7 +4,7 @@ var MenuItem = React.createClass({
       <li>
         <a href='#' title={this.props.data.title}>
           <div>
-            <i class={this.props.data.iconClass}></i>
+            <i className={this.props.data.iconClass}></i>
           </div>
           <span>{this.props.data.title}</span>
         </a>

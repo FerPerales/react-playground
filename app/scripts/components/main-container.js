@@ -1,7 +1,10 @@
 var MainContainer = React.createClass({
   render: function() {
     return (
-      <NavigationBar />
+      <div>
+        <NavigationBar />
+        <DashboardHeader />
+      </div>
     );
   }
 });
