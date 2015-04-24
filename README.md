@@ -24,6 +24,6 @@ Site will be available in `localhost:9000`
 
 ## To do
 
--[ ] Add some styles
--[ ] Restructure compoments folder to group them by type
--[ ] Join some remaining componets with the fake API
+- [ ] Add some styles
+- [ ] Restructure compoments folder to group them by type
+- [ ] Join some remaining componets with the fake API
